@@ -38,5 +38,3 @@
     name: postgresql-{{ postgres_version }}
     enabled: yes
     state: started
-
-# vim:ft=ansible:

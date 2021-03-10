@@ -22,5 +22,3 @@
   community.postgresql.postgresql_user:
     name: "{{ db_user }}"
     role_attr_flags: NOSUPERUSER,NOCREATEDB
-
-# vim:ft=ansible:
