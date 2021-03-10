@@ -1,4 +1,6 @@
 ---
+# tasks file for nginx repository fdr supported OS's. Moved into a seperate file for readability.
+
 - name: Add nginx signing key (Debian/Ubuntu)
   ansible.builtin.apt_key:
     url: http://nginx.org/keys/nginx_signing.key
