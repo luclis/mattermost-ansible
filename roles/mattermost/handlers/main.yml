@@ -1,5 +1,5 @@
 ---
 - name: start mattermost
-  service:
+  ansible.builtin.service:
     name: mattermost
     state: started
